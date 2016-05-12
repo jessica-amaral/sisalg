@@ -1,0 +1,106 @@
+label {
+	font-family: Calibri, Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #595959;
+	display: block;
+	font-weight: bold;
+}
+
+input {
+	border: thin;
+	border: 1px solid;
+	color: #000000;
+	border-color: #595959;
+	padding: 5px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 2px;
+}
+
+textarea {
+	border: thin;
+	border: 1px solid;
+	color: #000000;
+	border-color: #595959;
+	padding: 5px;
+	float: left;
+	margin-top: 4px;
+	font-family: calibri, sans-serif;
+	resize: none;
+	spellcheck: true;
+}
+
+textarea:focus {
+	background: #d1eaec;
+	border: rgb(33, 59, 68) 1px solid;
+}
+
+/*input.newOS {
+	visibility: hidden;
+}
+
+input.showNewOS {
+	margin-top: -1px;
+	margin-left: 8px;
+	padding: 5px;
+	visibility: visible;
+}
+
+input[type="radio"] {//funciona no IE
+	border: 0px;
+	background-color: yellow;
+	/*margin-top: -1px; IE
+}*/
+
+button {
+	border: thin;
+	border: 1px solid;
+	color: #000000;
+	border-color: #595959;
+	padding: 6px;
+	float: left;
+	margin: 5px;
+	width: 140px;
+}
+
+/*btn formulario padrao*/
+button.botao,input.botao {
+	float: left;
+	background-color: #172D3A;
+	color: #fff;
+	margin: 5px;
+	margin-top: 20px;
+	padding: 5px;
+	border: 1px solid;
+	display: block;
+	width: 70px;
+}
+
+button.botao:hover,input.botao:hover {
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	width: 70px;
+}
+
+div.botoesDir {
+	float: right;
+}
+
+/*btn *menu*/
+button.acao:hover,input.acao:hover {
+	cursor: pointer;
+	background-color: #172D3A;
+	color: #fff;
+}
+
+.clear {
+	clear: left;
+}
+
+
+fieldset.cform {
+	float: left;
+	padding: 5px;
+	padding-bottom: 10px;
+}
